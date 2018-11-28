@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Merienda+One');
+body {
+  background-color: rgb(21, 127, 31);
+  align-items: stretch;
+}
+
+p, a, button {
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  color: rgb(122, 121, 120);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1, h3 {
+  font-family: 'Merienda One', cursive, serif;
+  color: rgb(122, 121, 120);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  color: rgb(122, 121, 120);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h6{
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  color: rgb(21, 127, 31);
+  background-color: rgb(184, 235, 190, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: dashed rgb(122, 121, 120) ;
+  margin: 2px;
+}
+
+.container-fluid {
+  background-color: rgb(218, 255, 237);
+  padding:4px;
+}
+
+.container {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.navbar {
+  background-color: rgb(184, 235, 190);
+}
+
+.active{
+  text-decoration: line-through;
+}
+
+.card {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(184, 235, 190);
+  color:rgb(122, 121, 120);
+  border: 6px double rgb(122, 121, 120);
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px;
+}
+
+.main{
+  height: 550px;
+}
+
+.side{
+  height: 225px;
+  margin: 1.5rem 0rem;
+}
+
+.empty-top{
+  height:56px;
+}
+
+@media only screen and (min-width:792px)
+{
+   .empty-top{
+    height:66px;
+  }
+}
+
+.neck{
+  height: 40px;
+}
+
+.bodice{
+  height: 200px;
+}
+
+.sleeves{
+  height: 255px;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}
+
+.skirt{
+  height: 200px;
+}
+
+.clear{
+  font-family: 'Arima Madurai', cursive, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity:0;
+}
+
+.text-clear{
+  opacity:1;
+}
+
+.logo{
+  height: 4rem;
+}
